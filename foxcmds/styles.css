@@ -1,0 +1,46 @@
+@font-face {
+    font-family: pixls;
+    src: url(fonts/title.woff);
+}
+
+nav ul {
+    float: right;
+    
+}
+
+/*body {
+    
+}*/
+
+section {
+    margin: 10px;
+    margin-left: 0px;
+    padding: 10px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 25px;
+}
+
+.title {
+    font-family: pixls;
+    font-size: xx-large;
+    margin-left: 20px;
+    background-color: #ffffff00;
+}
+
+.title img {
+    float: left;
+    
+}
+.title h1 {
+    float: left;
+    width: 500px;
+    padding-left: 20px;
+}
+
+a {
+    color: black;
+}
+
+#current {
+    color: gray;
+}
