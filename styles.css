@@ -1,0 +1,52 @@
+ /*importing*/
+
+
+/* main stiling */
+#nav {
+				 background: orange; overflow: auto; 
+				 } 
+#nav li {
+       float: left; padding: 10px;
+       }
+#nav img {
+       float:right; padding-right: 10px;
+}
+#nav img :hover {
+       background: darkorange; 
+       } 
+
+#nav li:hover {
+       background: darkorange; 
+       } 
+
+@font-face { 
+       font-family: cantarell; src: url(/fonts/Cantarell/Cantarell-Regular.ttf);
+       font-family: fira-code; src: url(/fonts/firacode/FiraCode-Regular.ttf);
+} 
+
+body { font-family: cantarell ; font-size: 20;
+}
+
+head { font-family: cantarell 
+}
+
+h1 {
+       color: orange; padding-left: 30px;
+}
+
+article {
+       padding-left: 50px; padding-right: 50px;
+       background: rgb(255, 166, 0); border-radius: 25px;
+}
+
+#button {
+       background: darkorange;  border-radius: 25px; padding: 10px;
+}
+
+img {
+       padding: 10;
+}
+
+#error {
+       padding-left: 500px; font-size: 3cm; 
+}
