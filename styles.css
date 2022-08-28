@@ -20,9 +20,14 @@
        } 
 
 @font-face { 
-       font-family: cantarell; src: url(/fonts/Cantarell/Cantarell-Regular.ttf);
-       font-family: fira-code; src: url(/fonts/firacode/FiraCode-Regular.ttf);
+       font-family: cantarell;
+        src: url(fonts/Cantarell/Cantarell-Regular.ttf);
 } 
+
+@font-face {
+       font-family: fira-code;
+       src: url(fonts/firacode/FiraCode-Regular.ttf);
+}
 
 body { font-family: cantarell ; font-size: 20;
 }
@@ -35,12 +40,13 @@ h1 {
 }
 
 article {
-       padding-left: 50px; padding-right: 50px;
+       padding-left: 50px; padding-right: 50px; padding-bottom: 20px;
        background: rgb(255, 166, 0); border-radius: 25px;
+       
 }
 
 #button {
-       background: darkorange;  border-radius: 25px; padding: 10px;
+       border: 1px solid rgb(206, 110, 0); background-color: darkorange; padding: 10px;  border-radius: 25px;  
 }
 
 img {
@@ -50,3 +56,12 @@ img {
 #error {
        padding-left: 500px; font-size: 3cm; 
 }
+
+
+code {
+       font-family: fira-code ;
+       border: 1px solid rgb(206, 110, 0);
+      background-color: rgb(255, 136, 0);
+      padding: 3px;
+}
+
