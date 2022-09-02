@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="/nav.css">
+        <title>main index</title>
+
+        <!-- jquery -->
+        <script>console.info("%cLoading jQuery","color:lightblue")</script>
+        <script src="../libs/jquery-3.6.1.min.js"></script>
+        <!-- <script>
+            function file_get_contents(filename) {
+                fetch(filename).then((resp) => resp.text()).then(function(data) {
+    	            return data;
+                });
+            }
+            document.getElementById("nav").innerHTML = file_get_contents("nav.html");
+        </script> -->
+    </head>
+    <body>
+    <!-- navbar -->
+
+        <script>
+            $(function() {
+                $("#nav").load("../nav.html");
+            });
+        </script>
+        <div id="nav"></div>
+
+
+    <!-- main part of page -->
+        <h1>bugtracker</h1>
+        <section>
+            <h3>select a project to report a bug</h3>
+            <article>
+                <ul>
+                    <li><a href="https://github.com/Vosjedev/sh.foxcmds/issues/new">foxcmds</a></li>
+                    
+                </ul>
+            </article>
+        </section>
+    </body>
+</html>

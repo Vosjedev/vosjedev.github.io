@@ -2,19 +2,58 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/nav.css">
         <title>main index</title>
+
+        <!-- jquery -->
+        <script>console.info("%cLoading jQuery","color:lightblue")</script>
+        <script src="libs/jquery-3.6.1.min.js"></script>
+        <!-- <script>
+            function file_get_contents(filename) {
+                fetch(filename).then((resp) => resp.text()).then(function(data) {
+    	            return data;
+                });
+            }
+            document.getElementById("nav").innerHTML = file_get_contents("nav.html");
+        </script> -->
     </head>
     <body>
-        <h1>Work in progres</h1>
-        <article>
-        <h3>this page is still a work-in-progres...</h3>
-        <p>...but you should still check out some of my projects.</p>
-        <h3>projects:</h3>
-        
-        <ul>
-            <li><a href="foxcmds/index.html" id="button">foxcmds</a></li>
-        </ul>
-        
-    </article>
+    <!-- navbar -->
+
+        <script>
+            $(function() {
+                $("#nav").load("nav.html");
+            });
+        </script>
+        <div id="nav"></div>
+
+
+    <!-- main part of page -->
+        <h1>vosjedev's main page</h1>
+        <!-- <p id="line"></p> -->
+
+        <section id="whoami">
+            <h2>who am i</h2>
+            <article>
+                <p>I am a developer, and a content creator on youtube.</p>
+                <h4>Me as developer</h4>
+                <p>I know HTML, CSS, am interested in learning Javascript, but currently i am going to learn Python. I can also code in Shellscript (bash), but avoid using strange backslash stuff.</p>
+                <h4>Me as a Youtuber</h4>
+                <p>I also make dutch videos on youtube, where i play games, mostly minecraft. you can find my channel <a href="https://www.youtube.com/channel/UCyWRs_RiUjQsp_V6CgcUkOQ">here</a>.</p>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>projects</h2>
+            <article>
+            <p>here are my projects, check them out!</p>
+            <h4>projects:</h4>
+            <ul>
+                <li><a href="foxcmds/index.html" id="button">foxcmds</a></li>
+            </ul>
+            <p>or have a look at projects not is this list at my <a href="https://github.com/Vosjedev?tab=repositories">github repositories page.</a></p>
+            </article>
+        </section>
+    
     </body>
 </html>

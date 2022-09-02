@@ -1,0 +1,35 @@
+#nav {
+	background: orange;
+       overflow: auto;
+       border-radius: 15px;
+       padding-top: 0px;
+       height: 35px ;
+}
+#nav ul {
+       margin: 0px;
+}
+
+#nav li {
+       float: left;
+       padding: 5px;
+       margin: 0px;
+       margin-left: 20px;
+       }
+#nav img {
+       float:right; padding-right: 10px;
+}
+#nav img :hover {
+       background: darkorange; 
+       } 
+
+#nav li:hover {
+       background: darkorange; 
+       } 
+
+#nav a {
+       color: black;
+}
+
+#nav li.right {
+       float: right;
+}

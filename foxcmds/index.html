@@ -2,9 +2,20 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/nav.css">
         <title>🦊 home - foxcmds</title>
+        <script>console.info("%cLoading jQuery","color:lightblue")</script>
+        <script src="/libs/jquery-3.6.1.min.js"></script>
     </head>
     <body>
+        <!-- nav -->
+        <script>
+            $(function() {
+                $("#nav").load("../nav.html");
+            });
+        </script>
+        <div id="nav"></div>
+
         <section class="title">
             <img src="icon.png" alt="icon">
             <h1>foxcmds</h1>
