@@ -1,3 +1,8 @@
+@font-face { 
+    font-family: cantarell;
+     src: url(/fonts/Cantarell/Cantarell-Regular.ttf);
+} 
+
 #nav {
 	background: orange;
        overflow: auto;
